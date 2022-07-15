@@ -50,5 +50,5 @@ def index():
         }
         return jsonify(output)
 
-if __name__ == "__main__":
-    socketio.run(app)
+if __name__=='__main__':
+    main()
