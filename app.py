@@ -4,7 +4,7 @@ import json
  
 app = Flask(__name__)
 
-@app.route('/',methods=['POST'])
+@app.route('/')
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
     return 'Hello World'
